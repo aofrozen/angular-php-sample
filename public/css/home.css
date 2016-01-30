@@ -1,0 +1,152 @@
+.home .wall {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+}
+
+/* Feeds */
+.home-feed {
+    position: relative;
+    top: -185px;
+}
+
+.home-feed .clear {
+    margin: 420px auto 0 auto;
+}
+
+.home-feed .item {
+    position: relative;
+    width: 560px;
+    background-color: #FFF;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    margin: 25px auto 0 auto;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+.home-feed .item .header {
+    min-height: 70px;
+}
+
+.home-feed .item .header .username {
+    font-size: 16px;
+    color: #959595;
+}
+
+.home-feed .item .header .date {
+    font-size: 16px;
+    color: #959595;
+}
+
+.home-feed .item .header .name {
+    font-size: 16px;
+}
+
+.home-feed .item .header .avatar {
+    border: 4px #FFF solid;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    background-color: #FF7E7E;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+}
+
+.home-feed .item .header .clear {
+    clear: both;
+}
+
+.home-feed .item .body {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.home-feed .item .footer {
+    padding-left: 15px;
+}
+
+.home-feed .post {
+    position: relative;
+    margin: 10px auto 0 auto;
+    width: 550px;
+    min-height: 180px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+. body : focus;
+. body-border : 3 px solid rgba(154, 203, 239, 0.6);
+. body-outline-width : 0;
+. body-outline : none;
+}
+
+.home-feed .post .header {
+    padding: 15px;
+    min-height: 93px;
+}
+
+.home-feed .post .header .col-sm-2 {
+    padding: 0px !important;
+}
+
+.home-feed .post .header .col-sm-10 {
+    padding: 0px !important;
+}
+
+.home-feed .post .header .username {
+    font-size: 16px;
+    color: #959595;
+}
+
+.home-feed .post .header .date {
+    font-size: 16px;
+    color: #959595;
+}
+
+.home-feed .post .header .name {
+    font-size: 16px;
+    margin-top: 19px;
+}
+
+.home-feed .post .header .avatar {
+    border: 4px #FFF solid;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    background-color: #FF7E7E;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+}
+
+.home-feed .post .header .clear {
+    clear: both;
+}
+
+.home-feed .post .body {
+    background-color: #FFF;
+    min-height: 150px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 200;
+}
+
+.home-feed .post .footer {
+    padding: 10px;
+}
+
+.home-feed .post .col-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/*# sourceMappingURL=home.css.map */

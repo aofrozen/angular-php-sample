@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "mappings": "AAAA,QAAQ;EACN,KAAK,EAAE,MAAM;EACb,gBAAgB,EAAE,IAAI;EACtB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,IAAI",
+  "sources": ["friend.sass"],
+  "names": [],
+  "file": "friend.css"
+}

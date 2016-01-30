@@ -1,0 +1,235 @@
+.my-drop-zone
+  border: dotted 3px lightgray
+  .nv-file-over
+    border: dotted 3px red /* Default class applied to drop zones on over */
+  .another-file-over-class
+    border: dotted 3px green
+
+  html, body
+    height: 100%
+
+  canvas
+    background-color: #f3f3f3
+    -webkit-box-shadow: 3px 3px 3px 0 #e3e3e3
+    -moz-box-shadow: 3px 3px 3px 0 #e3e3e3
+    box-shadow: 3px 3px 3px 0 #e3e3e3
+    border: 1px solid #c3c3c3
+    height: 100px
+    margin: 6px 0 0 6px
+
+.photo-container
+  /* max-width: 1024px */
+  margin: 40px auto
+  .photo-plus-popover
+    width: 120px
+    li:hover
+      background-color: #E2E2E2
+    ul
+      padding: 0
+      list-style: none
+      position: relative
+      margin: 0
+    li
+      display: block
+      float: none
+      position: relative
+      a
+        color: #000
+        display: block
+        padding: 10px
+        text-decoration: none
+  .content
+    /* background-color: #FFF */
+    /* border-radius: 6px */
+    .header
+
+    .body
+      .photo-nav
+        max-width: 500px
+        margin: auto
+        text-align: center
+        padding: 10px
+      .photo-items
+        a:link
+          text-decoration: none
+        li
+          transition: 100ms
+          float: left
+          margin: 2px
+          list-style: none
+        li:hover
+          transform: scale(1.2)
+        .album-name
+          font-size: 24px
+          text-align: center
+        .album-photo
+          text-align: center
+          span
+            display: block
+    .footer
+.photo-dialog
+  max-width: 1500px
+  @media screen and (min-width: 801px)
+    background-color: #FFF
+  /* max-width: 1280px */
+  width: 90%
+  margin: 40px auto
+  height: 100%
+  .photo-viewer
+    height: 100%
+    cursor: pointer
+    position: relative
+    background-color: #000000
+    text-align: center
+    @media screen and (max-width: 800px)
+      height: inherit
+    @media screen and (min-width: 801px)
+      display: inline-block
+      vertical-align: top
+      width: 69%
+      height: 100%
+      max-width: 1040px
+    img
+      width: 100%
+    .next-photo-item
+      position: absolute
+      top: 42%
+      font-size: 36px
+      margin: 15px
+      right: 0
+      color: #FFF
+      text-align: right
+    .previous-photo-item
+      position: absolute
+      top: 42%
+      font-size: 36px
+      padding: 15px
+      color: #FFF
+  .photo-details
+    @media screen and (max-width: 800px)
+      margin-top: 25px
+      width: 100%
+    @media screen and (min-width: 801px)
+      width: 30%
+      display: inline-block
+      vertical-align: top
+      position: relative
+      height: 100%
+      min-height: 500px
+      overflow: hidden
+    padding: 0
+    background-color: #FFF
+    .comment-container
+      .post
+      position: relative
+      margin: 10px auto 0 auto
+      max-width: 800px
+      min-height: 180px
+      border-radius: 0px
+      background-color: #FFF
+      //+box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+      .header
+        padding: 5px
+        min-height: 93px
+        .username
+          font-size: 14px
+          color: #959595
+        .date
+          font-size: 14px
+          color: #959595
+          display: inline-block
+        .name
+          font-size: 14px
+          margin-top: 19px
+          display: inline-block
+        .avatar
+          border: 4px #FFF solid
+          border-radius: 100%
+          width: 58px
+          height: 58px
+          background-color: #FF7E7E
+          display: inline-block
+          +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+          .img-circle
+            width: 50px
+            height: 50px
+        .clear
+          clear: both
+      .thumbnail
+        background: none
+        border: none
+        a
+          img
+            width: 100%
+      .insert-options
+        margin-top: 21px
+      .post-btn
+        margin-top: 20px
+      .body
+        background-color: #F9F9F9
+        min-height: 90px
+        font-size: 16px
+        padding: 10px
+        font-weight: 200
+      .body: focus
+        border: 3px solid rgba(154, 203, 239, 0.6)
+        outline-width: 0
+        outline: none
+
+      .footer
+        padding: 10px
+        .btn-default-outline
+          font-size: 16px
+      .col-left
+        position: absolute
+        top: 10px
+        left: 10px
+      .item
+        border-bottom: 1px solid #CCC
+        padding: 5px
+        .left
+          float: left
+        .header
+          min-height: 63px
+        .comment
+          font-size: 16px
+          font-weight: 200
+    .edit-tools
+      padding: 5px
+    .details-container
+      border-bottom: 1px solid #CCC
+      .header
+        min-height: 50px
+        padding: 5px
+        .username
+          font-size: 16px
+          color: #959595
+        .date
+          font-size: 16px
+          color: #959595
+          display: inline-block
+        .name
+          font-size: 16px
+          margin-top: 19px
+          display: inline-block
+        .avatar
+          border: 4px #FFF solid
+          border-radius: 100%
+          width: 58px
+          height: 58px
+          background-color: #FF7E7E
+          display: inline-block
+          +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+          .img-circle
+            width: 50px
+            height: 50px
+        .clear
+          clear: both
+      .caption
+        padding: 10px
+        font-size: 18px
+        font-weight: 200
+.photo-plus-popover
+  ul
+    padding: 0
+    list-style: none

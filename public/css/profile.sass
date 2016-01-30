@@ -1,0 +1,314 @@
+@import mixin
+.profile
+
+  .wall
+    background-size: cover
+    background-position: center
+    width: 100%
+    height: 450px
+    position: absolute
+    top: 0
+    .wall-settings-button a
+      color: #FFF
+      padding-left: 7px
+    .wall-upload-button
+      position: absolute
+      top: 300px
+      right: 10px
+      padding: 10px
+      border-radius: 8px
+      font-size: 36px
+      color: #FFF
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.31)
+    .avatar-upload-button
+      position: absolute
+      margin-top: -50px
+      margin-left: 70px
+      //background-color: rgba(0, 0, 0, 0.5);
+      padding: 5px
+      border-radius: 5px
+      color: #FFF
+      font-size: 24px
+      text-shadow: 0px 1px 0px #000
+    .avatar
+      border-radius: 100%
+      border: 6px #FFF solid
+      margin: 350px auto
+      width: 200px
+      height: 200px
+      background-color: #CCC
+      +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+      .img-circle
+        width: 188px
+        height: 187px
+  #profile-content
+    min-height: 500px
+  .about
+    margin: 40px auto
+    background-color: #FFF
+    max-width: 1024px
+    border-radius: 6px
+    padding: 10px
+    .card
+      border: 1px solid #CCC
+      border-radius: 6px
+      padding: 10px
+      margin-left: 20px
+      min-width: 150px
+      height: 180px
+      float: left
+      .glyphicon, .fa
+        font-size: 100px
+      .detail-type
+        text-align: center
+      .detail-value
+        text-align: center
+        font-size: 24px
+
+  .info
+    background-color: #FFF
+    padding-bottom: 0
+    padding-top: 100px
+    min-height: 300px
+    width: 100%
+    .info-container
+      //width:  800px
+      margin: 400px auto 0 auto
+      .name
+        font-size: 54px
+        font-weight: 700
+      .description
+        font-size: 18px
+        font-weight: 200
+      .username
+        font-size: 20px
+        color: #CECECE
+
+      .friends
+        font-size: 20px
+        .list
+          width: 255px
+          margin: auto
+          padding-bottom: 20px
+          .friend-avatar
+            border-radius: 100%
+            border: 6px #FFF solid
+            margin: 10px
+            width: 50px
+            height: 50px
+            background-color: #CCC
+            +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+
+      .contacts
+        margin-top: 20px
+        margin-bottom: 20px
+
+      .options
+        border-top: 1px solid #EDEDED
+        .btn
+          margin-right: 16px
+        .btn, .btn:visited
+          transition-duration: 100ms
+          background-color: #FFF
+          border-radius: 0
+          z-index: 1
+          @include box-shadow('none')
+        .btn:hover
+          z-index: 100
+          transform: scale(1.2)
+          background-color: rgba(69, 176, 253, 1)
+          color: #FFF
+        .btn:active, .btn.active
+          z-index: 10
+          transform: scale(1.2)
+          background-color: rgba(69, 176, 253, 1)
+          color: #FFF
+
+/* Feeds */
+.profile-feed
+  position: relative
+  top: 0px
+  max-width: 550px
+  width: 95%
+  margin: auto
+  .clear
+    margin: 100px auto 0 auto
+  .item
+    position: relative
+    max-width: 550px
+    background-color: #FFF
+    border: 1px solid #DFDFDF
+    //+box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+    margin: 25px auto 0 auto
+    border-radius: 10px
+    padding-top: 15px
+    .feed-item-popover
+      width: 170px
+      li:hover
+        background-color: #E2E2E2
+      ul
+        padding: 0
+        list-style: none
+        position: relative
+      li
+        display: block
+        float: none
+        position: relative
+        a
+          color: #000
+          display: block
+          padding: 10px
+          text-decoration: none
+    .thumbnail
+      background: none
+      border: none
+      a
+        img
+          width: 100%
+    .close
+      margin: 0 20px 0 0
+      opacity: 1
+    .close:hover
+      opacity: 1
+    .comments
+      background-color: #F4F4F4
+      border-bottom-left-radius: 3px
+      border-bottom-right-radius: 3px
+      .comment-post
+        padding: 15px
+    .comment-items
+      margin: 0
+      border-top: 1px solid #CCC
+      background-color: #FFF
+      padding: 15px
+      .user
+        display: inline-block
+        width: 65px
+        vertical-align: top
+        text-align: center
+        margin-right: 15px
+        .avatar
+          border: 4px #FFF solid
+          border-radius: 100%
+          width: 65px
+          height: 65px
+          background-color: #FF7E7E
+          display: inline-block
+          +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+          .img-circle
+            width: 57px
+            height: 57px
+      .body
+        display: inline-block
+        vertical-align: top
+        padding: 0px
+        .footer
+          padding-left: 0px
+          font-size: 13px
+          color: #CCC
+          a
+            font-size: 13px
+    .header
+      min-height: 70px
+      .username
+        font-size: 16px
+        color: #959595
+
+      .date
+        font-size: 16px
+        color: #959595
+        display: inline-block
+
+      .name
+        font-size: 16px
+        display: inline-block
+
+      .avatar
+        border: 4px #FFF solid
+        border-radius: 100%
+        width: 65px
+        height: 65px
+        background-color: #FF7E7E
+        display: inline-block
+        margin-left: 15px
+        margin-right: 15px
+        +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+        .img-circle
+          width: 57px
+          height: 57px
+
+      .clear
+        clear: both
+
+    .body
+      padding: 15px
+      font-size: 20px
+      font-weight: 200
+    .footer
+      padding-left: 15px
+
+  .post
+    position: relative
+    margin: 10px auto 0 auto
+    max-width: 800px
+    min-height: 180px
+    border-radius: 10px
+    border: 1px solid #DFDFDF
+    background-color: #FFF
+    //+box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+    .header
+      padding: 15px
+      min-height: 93px
+      .username
+        font-size: 16px
+        color: #959595
+      .date
+        font-size: 16px
+        color: #959595
+        display: inline-block
+      .name
+        font-size: 16px
+        margin-top: 19px
+        display: inline-block
+      .avatar
+        border: 4px #FFF solid
+        border-radius: 100%
+        width: 65px
+        height: 65px
+        background-color: #FF7E7E
+        display: inline-block
+        +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+        .img-circle
+          width: 57px
+          height: 57px
+      .clear
+        clear: both
+    .thumbnail
+      background: none
+      border: none
+      a
+        img
+          width: 100%
+    .insert-options
+      margin-top: 21px
+    .post-btn
+      margin-top: 20px
+    .body
+      background-color: #F9F9F9
+      min-height: 90px
+      font-size: 20px
+      padding: 10px
+      font-weight: 200
+
+    .body: focus
+      border: 3px solid rgba(154, 203, 239, 0.6)
+      outline-width: 0
+      outline: none
+
+    .footer
+      padding: 10px
+
+    .col-left
+      position: absolute
+      top: 10px
+      left: 10px

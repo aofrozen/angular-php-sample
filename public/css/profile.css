@@ -1,0 +1,222 @@
+.profile .wall {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+}
+
+.profile .wall .avatar {
+    border-radius: 100%;
+    border: 6px #FFF solid;
+    margin: 300px auto;
+    width: 200px;
+    height: 200px;
+    background-color: #CCC;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+}
+
+.profile .about {
+    margin: 40px auto;
+    background-color: #FFF;
+    max-width: 1024px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.profile .info {
+    background-color: #FFF;
+    padding-bottom: 0;
+    padding-top: 40px;
+    min-height: 300px;
+}
+
+.profile .info .info-container {
+    margin: 400px auto 0 auto;
+}
+
+.profile .info .info-container .name {
+    font-size: 36px;
+}
+
+.profile .info .info-container .username {
+    font-size: 20px;
+    color: #CECECE;
+}
+
+.profile .info .info-container .friends {
+    font-size: 20px;
+}
+
+.profile .info .info-container .friends .list {
+    width: 255px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.profile .info .info-container .friends .list .friend-avatar {
+    border-radius: 100%;
+    border: 6px #FFF solid;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #CCC;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+}
+
+.profile .info .info-container .contacts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile .info .info-container .profile-page {
+    border-top: 1px solid #EDEDED;
+}
+
+/* Feeds */
+.profile-feed .clear {
+    margin: 420px auto 0 auto;
+}
+
+.profile-feed .item {
+    position: relative;
+    width: 560px;
+    background-color: #FFF;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    margin: 25px auto 0 auto;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+.profile-feed .item .header {
+    min-height: 70px;
+}
+
+.profile-feed .item .header .username {
+    font-size: 16px;
+    color: #959595;
+}
+
+.profile-feed .item .header .date {
+    font-size: 16px;
+    color: #959595;
+}
+
+.profile-feed .item .header .name {
+    font-size: 16px;
+}
+
+.profile-feed .item .header .avatar {
+    border: 4px #FFF solid;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    background-color: #FF7E7E;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+}
+
+.profile-feed .item .header .clear {
+    clear: both;
+}
+
+.profile-feed .item .body {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.profile-feed .item .footer {
+    padding-left: 15px;
+}
+
+.profile-feed .post {
+    position: relative;
+    margin: 10px auto 0 auto;
+    width: 550px;
+    min-height: 180px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.14);
+. body : focus;
+. body-border : 3 px solid rgba(154, 203, 239, 0.6);
+. body-outline-width : 0;
+. body-outline : none;
+}
+
+.profile-feed .post .header {
+    padding: 15px;
+    min-height: 93px;
+}
+
+.profile-feed .post .header .col-sm-2 {
+    padding: 0px !important;
+}
+
+.profile-feed .post .header .col-sm-10 {
+    padding: 0px !important;
+}
+
+.profile-feed .post .header .username {
+    font-size: 16px;
+    color: #959595;
+}
+
+.profile-feed .post .header .date {
+    font-size: 16px;
+    color: #959595;
+}
+
+.profile-feed .post .header .name {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile-feed .post .header .avatar {
+    border: 4px #FFF solid;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    background-color: #FF7E7E;
+    -webkit-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    -moz-box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+    box-shadow: 1px 1px 1px rgba(210, 210, 210, 0.59);
+}
+
+.profile-feed .post .header .clear {
+    clear: both;
+}
+
+.profile-feed .post .body {
+    background-color: #FFF;
+    min-height: 150px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 200;
+}
+
+.profile-feed .post .footer {
+    padding: 10px;
+}
+
+.profile-feed .post .avatar {
+    border: 1px #ADADAD solid;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/*# sourceMappingURL=profile.css.map */

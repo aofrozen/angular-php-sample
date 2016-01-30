@@ -1,0 +1,55 @@
+
+.friends
+  width: 1024px
+  background-color: #FFFFFF
+  border-radius: 6px
+  margin: 40px auto
+  padding: 10px
+
+.friends-list
+  /* max-width: 1024px */
+  margin: auto
+  .item
+    float: left
+    width: 300px
+    background-color: #FFFFFF
+    padding: 20px
+    border-radius: 6px
+    text-align: center
+    margin: 20px
+    .avatar
+      border-radius: 100%
+      border: 6px solid #FFF
+      width: 200px
+      height: 200px
+      background-color: #CCC
+      box-shadow: 1px 1px 1px rgba(210, 210, 210, .59)
+      margin: auto
+    .img-circle
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.28)
+      width: 188px
+      height: 187px
+    a:link
+      text-decoration: none
+    .name
+      font-size: 36px
+      font-weight: 800
+      color: #000
+    .username
+      font-size: 24px
+      color: #CECECE
+    .buttons
+      margin-top: 30px
+      .btn
+        margin-right: 10px
+        margin-left: 10px
+.friendStatusList
+  position: fixed
+  z-index: 1031
+  background-color: rgba(0, 0, 0, 0.21)
+  top: 0
+  bottom: 0
+  @media (min-width: 900px)
+    width: 60px
+  @media (max-width: 720px)
+    display: none

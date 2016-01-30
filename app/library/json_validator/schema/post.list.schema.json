@@ -1,0 +1,32 @@
+{
+  "title": "list.post",
+  "type": "object",
+  "properties": {
+    "title": {
+      "id": "title",
+      "type": "string"
+    },
+    "description": {
+      "id": "description",
+      "type": "string"
+    },
+    "items": {
+      "id": "items",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "id": "title",
+            "type": "string"
+          },
+          "description": {
+            "id": "description",
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

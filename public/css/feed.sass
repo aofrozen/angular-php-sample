@@ -1,0 +1,117 @@
+// .feed-animate-repeat.ng-move, .feed-animate-repeat.ng-enter, .feed-animate-repeat.ng-leave
+  -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all
+  -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all
+  -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all
+  -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all
+  transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all
+  position: relative
+  display: block
+  overflow: hidden
+  text-overflow: clip
+  white-space: nowrap
+
+//.feed-animate-repeat.ng-leave.ng-leave-active, .feed-animate-repeat.ng-move, .feed-animate-repeat.ng-enter
+  opacity: 0
+  width: 800px
+  height: 0
+
+//.feed-animate-repeat.ng-leave, .feed-animate-repeat.ng-move.ng-move-active, .feed-animate-repeat.ng-enter.ng-enter-active
+  opacity: 1
+  width: 800px
+  height: auto
+
+.media-item, .media-preview
+  padding: 15px
+  a.title
+    font-size: 24px
+    color: #000
+    cursor: pointer
+    font-weight: 800
+    text-decoration: none
+  a.caption
+    font-size: 20px
+    color: #000
+    cursor: pointer
+    font-weight: 200
+    text-decoration: none
+.feed-item-dialog
+  max-width: 1280px
+  width: 90%
+  margin: 50px auto
+  .feed-comment-dialog
+    background-color: #FFF
+    padding: 15px
+    width: 100%
+    margin: auto
+    .details
+      .header
+      min-height: 70px
+      .username
+        font-size: 16px
+        color: #959595
+
+      .date
+        font-size: 16px
+        color: #959595
+        display: inline-block
+
+      .name
+        font-size: 16px
+        display: inline-block
+
+      .avatar
+        border: 4px #FFF solid
+        border-radius: 100%
+        width: 65px
+        height: 65px
+        background-color: #FF7E7E
+        display: inline-block
+        margin-left: 15px
+        margin-right: 15px
+        +box-shadow(1px 1px 1px rgba(210, 210, 210, 0.59))
+        .img-circle
+          width: 57px
+          height: 57px
+
+      .clear
+        clear: both
+  .feed-item-content
+    background-color: #000
+    .media
+      width: 100%
+      .video-player
+        a.title
+          padding: 15px
+          color: #FFF
+          font-size: 24px
+          font-weight: 800
+          text-decoration: none
+      .article-summary
+        width: 800px
+        margin: auto
+        img.thumbnail
+          width: 100%
+          padding: 0px
+          background-color: transparent
+          border: none
+        a.title
+          color: #FFF
+          font-size: 26px
+          font-weight: 800
+          text-decoration: none
+          cursor: pointer
+        .caption
+          color: #FFF
+          font-size: 20px
+          text-decoration: none
+          cursor: pointer
+      .details
+
+      .username
+      .avatar
+      .name
+    .comments
+      .title
+      .caption
+      .comments
+

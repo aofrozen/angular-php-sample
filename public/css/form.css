@@ -1,0 +1,9 @@
+.css-form input .ng-touched .ng-valid {
+    background-color: #78FA89;
+}
+
+.css-form input .ng-touched .ng-invalid {
+    background-color: #FA787E;
+}
+
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,15 @@
+.settings {
+    margin: 80px auto;
+    width: 1024px;
+}
+
+.settings .content {
+    background-color: #FFF;
+    border-radius: 6px;
+}
+
+.settings .content .body {
+    padding: 10px;
+}
+
+/*# sourceMappingURL=settings.css.map */

@@ -1,0 +1,26 @@
+{   
+  "require": {
+    "mobiledetect/mobiledetectlib": "dev-master",
+    "phpunit/phpunit": "4.8.*@dev",
+    "react/react": "0.5.*@dev",
+    "phalcon/pretty-exceptions": "dev-master",
+    "minmb/phpmailer": "dev-master",
+    "justinrainbow/json-schema": "1.4.*@dev",
+    "ezyang/htmlpurifier": "dev-master",
+    "filp/whoops": "1.2.*@dev",
+    "stanislav-web/phalcon-uploader": "1.*@dev",
+    "hybridauth/hybridauth": "dev-master",
+    "phalcon/incubator": "dev-master",
+    "intervention/image": "dev-master",
+    "phalcon/devtools": "dev-master",
+    "mindscape/raygun4php": "dev-master",
+    "gregwar/image": "dev-master",
+    "embedly/embedly-php": "dev-master",
+    "firebase/php-jwt": "^2.1",
+    "twilio/sdk": "dev-master",
+    "hashids/hashids": "1.0.5",
+    "ktamas77/firebase-php": "dev-master",
+    "firebase/token-generator": "dev-master",
+    "ps/image-optimizer": "^1.0"
+  }
+}

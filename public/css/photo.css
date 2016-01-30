@@ -1,0 +1,18 @@
+.photo-dialog {
+    width: 1024px;
+    margin: 40px auto;
+}
+
+.photo-dialog .content {
+    background-color: #FFF;
+    border-radius: 6px;
+}
+
+.photo-dialog .content .body .photo-nav {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/*# sourceMappingURL=photo.css.map */

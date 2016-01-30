@@ -1,0 +1,84 @@
+{
+  "title": "article.post",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "id": "title"
+    },
+    "media": {
+      "type": "object",
+      "id": "media",
+      "image": {
+        "id": "image",
+        "type": "object",
+        "properties": {
+          "serverPath": {
+            "type": "string",
+            "id": "serverPath"
+          },
+          "serverLocation": {
+            "type": "string",
+            "id": "serverLocation"
+          },
+          "filename": {
+            "type": "string",
+            "id": "filename"
+          }
+        }
+      },
+      "video": {
+        "id": "video",
+        "type": "object",
+        "properties": {
+          "type": {
+            "id": "type",
+            "type": "string"
+          },
+          "link": {
+            "id": "link",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "items": {
+      "id": "items",
+      "type": "array",
+      "items": {
+        "description": {
+          "id": "description",
+          "type": "string"
+        },
+        "media": {
+          "id": "media",
+          "type": "object",
+          "properties": {
+            "image": {
+              "id": "image",
+              "type": "array",
+              "image": {
+                "type": "object",
+                "properties": {
+                  "serverPath": {
+                    "id": "serverPath",
+                    "type": "string"
+                  },
+                  "serverLocation": {
+                    "id": "serverLocation",
+                    "type": "string"
+                  },
+                  "filename": {
+                    "id": "filename",
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperty": false
+}

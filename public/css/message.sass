@@ -1,0 +1,91 @@
+.message-dialog
+  margin: 40px auto
+  width: 100%
+  min-width: 1024px
+  text-align: center
+  .chat
+    display: inline-block
+    vertical-align: top
+    background-color: #FFF
+    margin-left: 20px
+    padding: 10px
+    border-radius: 6px
+    width: 550px
+    min-height: 550px
+    .messages
+      height: 500px
+      overflow: auto
+  .users-list, .contacts-list
+    display: inline-block
+    vertical-align: top
+    background-color: #FFF
+    border-radius: 6px
+    width: 270px
+    margin-left: 15px
+    .search
+      margin: 15px
+    ul
+      padding: 0
+      li
+        list-style: none
+        text-align: left
+        a
+          padding: 10px 10px
+          display: block
+          text-decoration: none
+          border-top: 1px solid #CCC
+        a:hover
+          background-color: #F1F1F1
+  .contacts-list
+    .selected
+      background-color: #2E87F9
+      a
+        color: #FFF
+    .contact-items
+      height: 493px
+      overflow: auto
+
+  .content
+    border-radius: 6px
+    background-color: #FFF
+    position: relative
+    border: 1px solid rgba(0, 0, 0, 0.2)
+    .body
+      padding: 0px
+      position: relative
+      .users-list
+        border-right: 1px solid #CCC
+        background-color: #F6F6F6
+        padding: 0px !important
+        .user
+          height: 75px
+          padding: 5px
+          border-bottom: 1px solid #CCC
+
+        .avatar
+          height: 50px
+          width: 50px
+
+        .search
+          height: 75px
+
+        .user-select
+          background-color: #4A90E2
+
+    .messages
+      padding: 0px !important
+      .conversation
+        border-top: 1px solid #CCC
+        border-bottom: 1px solid #CCC
+
+        .to
+          text-align: left
+          color: red
+
+        .from
+          text-align: right
+          color: blue
+
+      .toUser
+        height: 75px
+

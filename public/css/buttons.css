@@ -1,0 +1,24 @@
+.btn-default-outline {
+    border: 1px solid rgba(171, 171, 171, 0.49);
+    font-size: 18px;
+    font-weight: 200;
+    color: #848484;
+}
+
+.btn-default-blank {
+    font-size: 18px;
+    font-weight: 200;
+    color: #848484;
+}
+
+a.comment-icon {
+    color: #dfdfdf;
+    font-size: 25px;
+}
+
+a.like-icon {
+    color: #ff4b4b;
+    font-size: 25px;
+}
+
+/*# sourceMappingURL=buttons.css.map */

@@ -1,0 +1,102 @@
+.navbar-socialSample {
+    width: 1024px;
+    margin: 10px auto auto auto;
+    a: focus;
+    a-background-color: none !important;
+}
+
+.navbar-socialSample .popover-content {
+    width: 170px;
+}
+
+.navbar-socialSample a.circle {
+    color: #FFF;
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+}
+
+.navbar-socialSample a.home-nav-btn {
+    background-color: rgba(255, 92, 114, 0.5);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.navbar-socialSample a:hover .home-nav-btn {
+    background-color: #ff5c72;
+}
+
+.navbar-socialSample a.profile-nav-btn {
+    background-color: rgba(255, 198, 0, 0.5);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.navbar-socialSample a:hover .profile-nav-btn {
+    background-color: #ffc600;
+}
+
+.navbar-socialSample a.message-nav-btn {
+    background-color: rgba(92, 252, 94, 0.5);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.navbar-socialSample a:hover .message-nav-btn {
+    background-color: #5cfc5e;
+}
+
+.navbar-socialSample a.photo-nav-btn {
+    background-color: rgba(198, 249, 87, 0.5);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.navbar-socialSample a:hover .photo-nav-btn {
+    background-color: #c6f957;
+}
+
+.navbar-socialSample a.notification-nav-btn {
+    background-color: rgba(67, 123, 226, 0.5);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.navbar-socialSample a:hover .notification-nav-btn {
+    background-color: #437be2;
+}
+
+.navbar-socialSample a.settings-nav-btn {
+    background-color: rgba(184, 197, 214, 0.5);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.navbar-socialSample a:hover .settings-nav-btn {
+    background-color: #b8c5d6;
+}
+
+.navbar-socialSample a span.glyphicon {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar-socialSample li.nav-item {
+    margin-left: 7px;
+}
+
+/*# sourceMappingURL=navigation.css.map */
